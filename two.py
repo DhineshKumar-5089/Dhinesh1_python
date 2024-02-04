@@ -8,11 +8,8 @@ else:
     if a==1234:
      print("Correct password.") 
     else:
-      print("Wrong Password.") 
+      print("Wrong Password.")
  else:
     print("Wait for 30 second.
 for i in range(1, 5+1):
         print('* ' * i)'''
-a=int(input("enter a number:"))
-sum=0
-print(sum)
