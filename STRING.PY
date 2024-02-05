@@ -45,6 +45,30 @@ b="a1","A"
 print(min(b))
 
 #Built-in function
+#Boolean
+print(a.isupper())
+print(a.islower())
+print(a.isalpha())
+print(a.isalnum())
+print(a.space())
+
+b="     "
+print(b.isspace())
+
+a=a.upper()
+print(a)
+print(a.lower())
+print(a.swapcase())
+print(a.replace("CLASS","session"))
+print(a.startswith("WE"))
+print(a.startswith("PY",11))
+print(a.endswith("SS"))
+print(a.endswith("ON",1,17))
+print(a.ljust(30,"1"))
+print(a.rjust(30,"1"))
+print(a.center(30,"-"))
+print(a.zfill(30))
+
 #strip
 a="aaa pyhton aaa"
 print(a.strip("a"))
